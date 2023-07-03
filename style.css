@@ -122,3 +122,37 @@ img{
   height: 629px;
   width: 100%;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .menu-btn {
+    right: 1rem;
+  }
+  
+  h2 {
+    right: 1rem;
+  }
+  
+  .container {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .menu-btn {
+    right: 0.5rem;
+  }
+  
+  h2 {
+    right: 0.5rem;
+  }
+  
+  .container {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (device-width: 428px) and (device-height: 926px) {
+  /* Styles for iPhone 13 */
+  /* Add specific styles for iPhone 13 here */
+}
